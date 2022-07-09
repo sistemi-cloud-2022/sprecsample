@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  sprecsampleService:
+    depends_on:
+      - sprecsample_db
+    image: sprecsample:latest
+    restart: always
+    ports:
+      - 9094:9094
+    environment:
+      SERVER_PORT: 9094
+      MYSQL_HOST: sprecsample_db
+
+  sprecsample_db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: sprecsample_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
