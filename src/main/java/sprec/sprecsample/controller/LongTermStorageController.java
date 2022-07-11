@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.LongTermStorage;
 import sprec.sprecsample.service.LongTermStorageService;
 
 @Controller
-@RequestMapping("/sprecsample/longTermStorages")
+@RequestMapping("/sprecsample/long-term-storages")
 public class LongTermStorageController {
 	
 	@Autowired

@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.PrimaryContainer;
 import sprec.sprecsample.service.PrimaryContainerService;
 
 @Controller
-@RequestMapping("/sprecsample/primaryContainers")
+@RequestMapping("/sprecsample/primary-containers")
 public class PrimaryContainerController {
 	
 	@Autowired

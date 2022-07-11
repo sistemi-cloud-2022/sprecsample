@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.FixationTime;
 import sprec.sprecsample.service.FixationTimeService;
 
 @Controller
-@RequestMapping("/sprecsample/fixationTimes")
+@RequestMapping("/sprecsample/fixation-times")
 public class FixationTimeController {
 	
 	@Autowired

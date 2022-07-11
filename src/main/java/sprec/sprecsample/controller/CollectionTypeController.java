@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.CollectionType;
 import sprec.sprecsample.service.CollectionTypeService;
 
 @Controller
-@RequestMapping("/sprecsample/collectionTypes")
+@RequestMapping("/sprecsample/collection-types")
 public class CollectionTypeController {
 	
 	@Autowired

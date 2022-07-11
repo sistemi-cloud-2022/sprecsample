@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.SprecSample;
 import sprec.sprecsample.service.SprecSampleService;
 
 @Controller
-@RequestMapping("/sprecsample/sprecSamples")
+@RequestMapping("/sprecsample/sprec-samples")
 public class SprecSampleController {
 	
 	@Autowired
