@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.FixationStabilization;
 import sprec.sprecsample.service.FixationStabilizationService;
 
 @Controller
-@RequestMapping("/sprecsample/fixationStabilizations")
+@RequestMapping("/sprecsample/fixation-stabilizations")
 public class FixationStabilizationController {
 	
 	@Autowired

@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.WarmIschemia;
 import sprec.sprecsample.service.WarmIschemiaService;
 
 @Controller
-@RequestMapping("/sprecsample/warmIschemias")
+@RequestMapping("/sprecsample/warm-ischemias")
 public class WarmIschemiaController {
 	
 	@Autowired

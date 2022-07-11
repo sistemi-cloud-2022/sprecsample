@@ -17,7 +17,7 @@ import sprec.sprecsample.domain.PreCentrifugation;
 import sprec.sprecsample.service.PreCentrifugationService;
 
 @Controller
-@RequestMapping("/sprecsample/preCentrifugations")
+@RequestMapping("/sprecsample/pre-centrifugations")
 public class PreCentrifugationController {
 	
 	@Autowired
