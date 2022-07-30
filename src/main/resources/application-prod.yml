@@ -1,6 +1,6 @@
 keycloak:
   realm: Biobank
-  auth-server-url: http://host.docker.internal:8180/auth
+  auth-server-url: http://${MYSQL_HOST}:8180/auth
   resource: sprec-sample
   bearer-only: true
   ssl-required: none 
